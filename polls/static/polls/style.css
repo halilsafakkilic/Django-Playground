@@ -1,0 +1,6 @@
+@import "/static/style.css";
+
+li a {
+    color: green;
+    text-decoration: none;
+}
