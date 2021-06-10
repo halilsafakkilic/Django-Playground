@@ -1,4 +1,4 @@
-# My First Django App
+# Django Playground
 
 This playground was created from Django framework on Python3. This project was created with the tutorials
 under https://docs.djangoproject.com/en/3.2/. [PostgreSQL](https://www.postgresql.org/) is preferred as database.
@@ -7,15 +7,18 @@ under https://docs.djangoproject.com/en/3.2/. [PostgreSQL](https://www.postgresq
 , [gunicorn](https://gunicorn.org/) packages, **dataclass**, **csrf_exempt**, **register.simple_tag**, **admin.display**
 decorators and one custom middleware and JsonResponse used.
 
+&nbsp;
+
+If you need a development environment with docker maybe you must see [dockerkit-python](https://github.com/halilsafakkilic/dockerkit-python).
+
+&nbsp;
+
 Before you launch the application, you should check that your definitions in the **.env** are correct.
-
-&nbsp;
-
+```
 Admin: http://localhost:8001/admin/
-
 Polls: http://localhost:8001/polls/
+```
 
-&nbsp;
 ## Example API Requests
 ### Poll Create
 ``` 
